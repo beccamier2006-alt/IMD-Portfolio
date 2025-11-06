@@ -1,0 +1,82 @@
+html{
+    background-color:rgba(208, 208, 254, 0.556);
+    font-family:Helvetica Neue, Helvetica, Arial, and sans-serif;
+}
+
+.dreamhire{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    column-gap:15px;
+
+}
+
+img{
+    height:100%;
+    width:100%;
+}
+
+/*navbar css*/
+
+ul{
+    list-style-type:none;
+    margin-right: 0;
+    background-color:rgb(54, 54, 251);
+    margin-top:0;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+    padding:5px;
+    font-size:20px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+a:hover{
+    color:rgb(19, 19, 85);
+    font-size:25px;
+}
+
+/*decision button css*/
+.decision{
+    text-align:center;
+    margin:auto;
+    padding:10px;
+    padding-bottom:30px;
+    background-color:white;
+    height:100px;
+    width:300px;
+    border-radius:20px;
+}
+
+.reddec{
+    background-color:red;
+    height:40px;
+    width:70px;
+}
+
+
+.greendec{
+    background-color:green;
+    height:40px;
+    width:70px;
+}
+
+.decbutton{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+}
+
+.button{
+    border-radius:20px;
+    border:none
+}
+
+.button:hover{
+    background-color:black;
+}
